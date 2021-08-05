@@ -1,2 +1,2 @@
-# logstash
+# Logstash Admin
 Documentación
