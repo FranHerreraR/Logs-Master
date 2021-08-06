@@ -2,5 +2,5 @@
 Documentación
 
 
-![alt text](https://github.com/FranHerreraR/logstash/blob/main/logstash.pdf?raw=true)
+![alt text](https://github.com/FranHerreraR/logstash/blob/main/logstash.jpg?raw=true)
 
