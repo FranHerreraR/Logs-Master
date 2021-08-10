@@ -1,5 +1,5 @@
-# Logstash-Admin
-
+# Logs-Master
+Acá se encuentra documetado todos acerca de los logs; formatos, modulos, etc
 
 <img src="https://github.com/FranHerreraR/Logs-Master/blob/main/image.png" width="700" />
 
