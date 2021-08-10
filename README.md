@@ -1,7 +1,10 @@
 # Logstash-Admin
-Esquema
 
-![alt text](https://github.com/FranHerreraR/logstash/blob/main/logstash.jpg?raw=true)
+
+<img src="https://github.com/FranHerreraR/Logs-Master/blob/main/image.png" width="700" />
+
+Esquema
+<img src="https://github.com/FranHerreraR/logstash/blob/main/logstash.jpg" width="650" />
 
 # Formato Logs-V 1.1
 | Campo      | Descripción                                                                                                                               |
