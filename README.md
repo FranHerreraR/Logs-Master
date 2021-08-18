@@ -22,7 +22,9 @@ Esquema
 |------------------|---|-------------|---|------|---|-----------------------|---|--------------|---|-----------------------------|
 | f24risdf430932sd |   | 11111111111 |   | INFO |   | virtualStickResources |   | adaptadorDji |   | Modo virtual stick activado |
 
-# Cosas por investigar
-* Metricas nuevas (bateria)
-* Token seguridad
-* RegEx Pattern log
+# Formato Logs-V1.2 json
+Puerto: 5065
+{"uuid":"f722c7e3a","timestamp":"1628632655144","Module":"example_module","Component":"example_component","latitude":25434,"longitude":335434}
+
+## Si se quiere agregar un campo a kibana, este debe ser declarado en el Json
+
