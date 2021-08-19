@@ -23,6 +23,8 @@ Esquema
 | f24risdf430932sd |   | 11111111111 |   | INFO |   | virtualStickResources |   | adaptadorDji |   | Modo virtual stick activado |
 
 # Formato Logs-V1.2 json
+Se mantiene el formato de campos de la versión 1.1, a excepción del contenido del campo Mensaje que puede derivar en más campos de interes dependiendo del modulo.
+
 Puerto: 5065
 ```
 {"uuid":"f722c7e3a","timestamp":"1628632655144","Module":"example_module","Component":"example_component","example_field":example_value"}
@@ -35,4 +37,3 @@ Puerto: 5065
 * Los campos y valores de campo van separados por ',' y cada linea debe ir en '{ }':
 '{ "field": field_value, ..., "Field_n": field_value_n }'
 ```
-Se mantiene el formato de campos de la versión 1.1, a excepción del contenido del campo Mensaje que puede derivar en más campos de interes dependiendo del modulo.
