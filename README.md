@@ -24,7 +24,7 @@ Esquema
 
 # Formato Logs-V1.2 json
 Puerto: 5065
-{"uuid":"f722c7e3a","timestamp":"1628632655144","Module":"example_module","Component":"example_component","latitude":25434,"longitude":335434}
+{"uuid":"f722c7e3a","timestamp":"1628632655144","Module":"example_module","Component":"example_component","example_field":example_value"}
 
 ## Si se quiere agregar un campo a kibana, este debe ser declarado en el Json
 
