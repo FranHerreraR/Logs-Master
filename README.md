@@ -32,5 +32,7 @@ Puerto: 5065
 "field": field_value -------- 
 *En caso de string "field_value"--------En caso de que campo_value es de otro tipo (integer, float), no es necesario especificar el tipo.
 
-* Los campos y valores de campo van separados por ',' y cada linea debe ir en '{ "field": field_value, ..., "Field_n": field_value_n }'
+* Los campos y valores de campo van separados por ',' y cada linea debe ir en '{ }':
+'{ "field": field_value, ..., "Field_n": field_value_n }'
 ```
+Se mantiene el formato de campos de la versión 1.1, a excepción del contenido del campo Mensaje que puede derivar en más campos de interes dependiendo del modulo.
