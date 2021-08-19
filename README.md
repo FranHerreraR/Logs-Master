@@ -2,9 +2,11 @@
 Acá se encuentra documetado todos acerca de los logs; formatos, modulos, etc
 
 <img src="https://github.com/FranHerreraR/Logs-Master/blob/main/image.png" width="700" />
+Fuente: Ppt Mindlabs
 
-Esquema
+Esquema-Fuente:Javier Martinez
 <img src="https://github.com/FranHerreraR/logstash/blob/main/logstash.jpg" width="650" />
+
 
 # Formato Logs-V 1.1
 | Campo      | Descripción                                                                                                                               |
