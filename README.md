@@ -24,7 +24,7 @@ Esquema
 
 # Formato Logs-V1.2 json
 Se mantiene el formato de campos de la versión 1.1, a excepción del contenido del campo Mensaje que puede derivar en más campos de interes dependiendo del modulo.
-
+index: ""json-index"
 Puerto: 5065
 ```
 {"uuid":"f722c7e3a","timestamp":"1628632655144","Module":"example_module","Component":"example_component","example_field":example_value"}
