@@ -39,3 +39,10 @@ Puerto: 5065
 * Los campos y valores de campo van separados por ',' y cada linea debe ir en '{ }':
 '{ "field": field_value, ..., "Field_n": field_value_n }'
 ```
+```
+{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"action_name","action_values":{"x":5,"y":6,"z":8}},"Action2":{"name":"action2_name","action2_values":{"x":5,"y":6,"z":8}}}
+```
+Ejemplo
+```
+{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"Precision Landing-Found at","action_values":{"x":5,"y":6,"z":8}},"Action2":{"name":"action2_name","action2_values":{"x":5,"y":6,"z":8}}}
+```
