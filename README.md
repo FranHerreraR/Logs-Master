@@ -42,7 +42,15 @@ Puerto: 5065
 ```
 {"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"action_name","action_values":{"x":5,"y":6,"z":8}},"Action2":{"name":"action2_name","action2_values":{"x":5,"y":6,"z":8}}}
 ```
-Ejemplo
+De acuerdo a lo conversado el dia 23/8 se incluye el campo Action. El campo Action incluye el nombre de la action, por ejemplo: "Precision Landing-begin", el campo action_values que en
+
 ```
-{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"Precision Landing-Found at","action_values":{"x":5,"y":6,"z":8}},"Action2":{"name":"action2_name","action2_values":{"x":5,"y":6,"z":8}}}
+{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"Precision Landing-Found at","action_values":{"x":5,"y":6,"z":8}}}
 ```
+```
+{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component","Action":{"name":"action_name","action_values":{"x":5,"y":6,"z":8}},"Action2":{"name":"action2_name","action_values":{"x":5,"y":6,"z":8}}}
+```
+```
+{"uuid":"uuid_local","timestamp":"1628632652534","Module":"test_mod","Component":"test_component", "Action":{"name":"action_name","action_values":{"x":5,"y":6,"z":8}},"action_status":"end"}
+```
+
